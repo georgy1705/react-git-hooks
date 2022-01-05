@@ -1,3 +1,3 @@
 import { createContext } from "react";
 
-export const GitHubContext = createContext()
+export const GithubContext = createContext()
