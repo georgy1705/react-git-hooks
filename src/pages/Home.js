@@ -6,7 +6,6 @@ import { GithubContext } from "../context/github/githubContext";
 export const Home = () => {
     const {loading, users} = useContext(GithubContext)
 
-    console.log(users);
 
     return (
         <React.Fragment>
